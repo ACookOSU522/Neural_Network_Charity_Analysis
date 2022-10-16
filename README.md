@@ -10,6 +10,8 @@ Charity_data.csv, Jyputer Lab, Tensorflow
 Data Preprocessing
 What variable(s) are considered the target(s) for your model?
 	The columns EIN and NAME are identification information and have been removed from the input data.
+	![D1 drop ein ](https://user-images.githubusercontent.com/106544424/196064182-c126cde5-ac90-42f7-a147-ba237aa214f1.png)
+
 What variable(s) are considered to be the features for your model?
 	The IS_SUCCESSFUL column is the feature chosen for this dataset.
 What variable(s) are neither targets nor features, and should be removed from the input data?
@@ -20,6 +22,8 @@ How many neurons, layers, and activation functions did you select for your neura
 	I used 4 hidden layers from 120(relu) to 80(relu) to 40(sigmoid) to 20(sigmoid) to 1(linear)
 Were you able to achieve the target model performance?
 	The target for the model was 75%, but the best the model could produce was 72.7%.
+	![accuracy and h5](https://user-images.githubusercontent.com/106544424/196064208-cb60803f-32b7-4c02-bfbb-a1c68c9589fc.png)
+
 What steps did you take to try and increase model performance?
 	Running additional neuron hidden layers.
 
